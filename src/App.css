@@ -1,0 +1,81 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+button{
+  margin: 5px;
+}
+/* 
+body{
+  background-color: black;
+  color: white;
+} */
+
+.divdiv, .cd, .divone{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.divdiv{
+  background-color: rgb(255, 156, 156);
+  width: 80%;
+  border-radius: 20px;
+}
+.divone{
+  background-color: aqua;
+  width: 80%;
+  border-radius: 20px;
+}
+.divone input{
+  width: 60%;
+  border: 10px solid white;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: aliceblue;
+}
+
+button{
+  padding: 5px;
+}
